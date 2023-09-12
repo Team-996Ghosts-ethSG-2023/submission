@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Gotham';
+	src: url('assets/fonts/Gotham-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Gotham';
+	src: url('assets/fonts/Gotham-Medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Gotham';
+	src: url('assets/fonts/Gotham-Book.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Gotham';
+	src: url('assets/fonts/Gotham-Thin.woff') format("woff");
+	font-weight: 200;
+	font-style: normal;
+  }
+
+:root {
+	--color-hyperdrive-black: #050b0c;
+	--color-hyperdrive-tan-1: #deece4;
+	--color-hyperdrive-green: #14f195;
+	font-family: 'Gotham';
+}
+body {
+	margin: 0;
+	padding: 0;
+}

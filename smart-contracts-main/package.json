@@ -1,0 +1,28 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat deploy-campaign",
+    "d": "hardhat run scripts/deploy.ts",
+    "deploy-mumbai": "hardhat run scripts/deploy-w-key.ts --network mumbai > mumbai.txt",
+    "deploy-taiko": "hardhat run scripts/deploy-w-key.ts --network taiko > taiko.txt",
+    "deploy-mantle-erc20": "hardhat run scripts/deploy-erc20.ts --network mantle > mantle.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.17.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1"
+  }
+}

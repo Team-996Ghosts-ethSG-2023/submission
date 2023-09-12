@@ -1,0 +1,25 @@
+0xec968f66Aaa2531427CB6B0931f5E2126AaFEdA1 0x274EEA24F3bbDed590759E75b715928dD3174E60 0xCD123E59fAa2db6FB199F701B6983FD2ca5FA820
+ethers.provider HardhatEthersProvider {
+  _hardhatProvider: LazyInitializationProviderAdapter {
+    _providerFactory: [AsyncFunction (anonymous)],
+    _emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(kCapture)]: false
+    }
+  },
+  _networkName: 'mumbai',
+  _blockListeners: [],
+  _transactionHashListeners: Map(0) {},
+  _eventListeners: []
+}
+Token address: 0x3DA3297E3Ac149c2dE1e9F48a4877cc3665153FF
+deployer 0xec968f66Aaa2531427CB6B0931f5E2126AaFEdA1
+campaign address: 0xc34c69774fC80dEB1a951074a0EFAbc3C08f27f2
+grant permission
+sponsor's allowance increased for them to be able to submit erc20 reward later.
+added new task
+completed new task
+approved task
+new balance of user after campaign milestone approved 0n

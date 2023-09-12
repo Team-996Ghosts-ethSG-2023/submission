@@ -1,0 +1,21 @@
+0xec968f66Aaa2531427CB6B0931f5E2126AaFEdA1 0x274EEA24F3bbDed590759E75b715928dD3174E60 0xCD123E59fAa2db6FB199F701B6983FD2ca5FA820
+ethers.provider HardhatEthersProvider {
+  _hardhatProvider: LazyInitializationProviderAdapter {
+    _providerFactory: [AsyncFunction (anonymous)],
+    _emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(kCapture)]: false
+    }
+  },
+  _networkName: 'taiko',
+  _blockListeners: [],
+  _transactionHashListeners: Map(0) {},
+  _eventListeners: []
+}
+Token address: 0x856f4Ce44847a18D153e15f6Fd8F8AE06b54000F
+deployer 0xec968f66Aaa2531427CB6B0931f5E2126AaFEdA1
+campaign address: 0x65dE98102aEf65f1ecff48b9cfB1c760287F2B11
+
+// link from test explorer https://explorer.test.taiko.xyz/address/0x65dE98102aEf65f1ecff48b9cfB1c760287F2B11
